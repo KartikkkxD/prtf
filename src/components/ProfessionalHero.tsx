@@ -95,8 +95,8 @@ export default function ProfessionalHero() {
       className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden pt-10"
     >
       {/* Ticker Background */}
-      <div className="absolute top-1/2 -translate-y-[60%] w-full flex overflow-hidden whitespace-nowrap opacity-10 blur-[2px] pointer-events-none select-none z-0">
-        <div ref={tickerRef} className="flex shrink-0">
+      <div className="absolute top-1/2 -translate-y-[60%] w-full flex overflow-hidden whitespace-nowrap opacity-[0.06] pointer-events-none select-none z-0">
+        <div ref={tickerRef} className="flex shrink-0 will-change-transform">
           <span className="text-[12vw] leading-none font-heading font-black tracking-tight px-4 text-[var(--accent)]">
             {tickerText}
           </span>
@@ -138,10 +138,9 @@ export default function ProfessionalHero() {
       {/* Action Buttons */}
       <div className="relative z-20 hero-fade mt-10 flex flex-wrap justify-center gap-4">
         <a
-          href="/cv.docx"
+          href="https://drive.google.com/file/d/1j9tPE7ppRKrujE-Y0prCFg-GGuSHHv78/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          download="Kartikay_Sharma_CV.docx"
           className="px-8 py-4 bg-[#1a1a1a] text-white rounded-2xl font-semibold hover:bg-black transition-all hover:-translate-y-1 shadow-[0_10px_30px_rgba(0,0,0,0.2)] hover:shadow-[0_15px_40px_rgba(0,0,0,0.3)] hover:scale-105 active:scale-95"
         >
           Get CV

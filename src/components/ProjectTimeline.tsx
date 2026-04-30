@@ -281,8 +281,8 @@ export default function ProjectTimeline() {
               key={project.id} 
               className="scroll-reveal relative" 
               animate={{
-                filter: isOtherActive ? "blur(8px)" : "blur(0px)",
-                opacity: isOtherActive ? 0.4 : 1,
+                opacity: isOtherActive ? 0.3 : 1,
+                scale: isOtherActive ? 0.98 : 1,
                 zIndex: isActive ? 20 : 1
               }}
               transition={{ duration: 0.4 }}
