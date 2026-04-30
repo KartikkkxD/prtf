@@ -62,14 +62,7 @@ export default function Hero() {
               </p>
             </div>
             
-            <div className="fade-in mt-8 w-full flex justify-center">
-              <button 
-                onClick={() => document.getElementById("modes")?.scrollIntoView({ behavior: "smooth" })}
-                className="px-12 py-4 bg-white/40 backdrop-blur-xl border border-white/60 text-[#2b2b2b] rounded-2xl font-bold text-lg tracking-wide hover:bg-white/60 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(43,43,43,0.1)] active:scale-95 transition-all duration-300 shadow-[0_8px_30px_rgba(43,43,43,0.04)]"
-              >
-                View My Work
-              </button>
-            </div>
+
           </div>
 
           {/* Right Floating Profile Card */}
