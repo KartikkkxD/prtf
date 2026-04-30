@@ -69,9 +69,6 @@ export default function Hero() {
               >
                 View My Work
               </button>
-              <button className="px-8 py-4 bg-transparent border border-black/20 text-[#2b2b2b] rounded-2xl font-semibold hover:bg-black/5 transition-colors">
-                Explore More
-              </button>
             </div>
           </div>
 
