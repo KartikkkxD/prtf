@@ -16,7 +16,6 @@ const PROJECTS = [
     label: "Startup Website",
     summary: "Shipped the flagship marketing site for an EdTech startup targeting 16–21 year olds, driving end-to-end enrollment for two paid cohorts.",
     highlights: [
-      "Lighthouse 92+ with LCP under 1.8s on 4G",
       "Multi-step enrollment flow — lead-response time cut from hours to under 5 minutes",
       "Reusable Tailwind design-token config shared across the team",
     ],
