@@ -1,4 +1,4 @@
-"use client";
+  "use client";
 
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -22,7 +22,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const TIMELINE = [
-  { year: "2025 — Now", label: "Shipped", title: "Nextera Labs", desc: "Flagship product · nextera-labs.in", detail: "Built and launched the marketing site + cohort acquisition funnel for India's first peer-led AI builder community.", badge: "Lighthouse 92+ · LCP < 1.8s" },
+  { year: "2025 — Now", label: "Shipped", title: "Nextera Labs", desc: "Flagship product · nextera-labs.in", detail: "Built and launched the marketing site + cohort acquisition funnel for India's first peer-led AI builder community.", badge: "Node · Express · MongoDB" },
   { year: "2025", label: "Shipped", title: "SproutCircle", desc: "Multi-tenant daycare platform", detail: "Real-time child-tracking on MongoDB change streams. Compound indexes + roster caching cut schedule-endpoint latency ~60%.", badge: "Node · Express · MongoDB" },
   { year: "2024", label: "Certified", title: "Meta Backend Developer", desc: "Coursera", detail: "Production backend patterns: REST API design, auth, deployment, and database integration." },
   { year: "2024", label: "Certified", title: "Data Structures", desc: "UC San Diego · Coursera", detail: "Foundational DSA — arrays, trees, hash tables, priority queues." },
